@@ -1,3 +1,5 @@
 let arr = [1,2,3,4,5];
-console.log(arr[arr.length - arr.length]);
-console.log(arr[arr.length-1]);
+let min = Math.min(...arr);
+let max = Math.max(...arr);
+console.log(min);
+console.log(max);

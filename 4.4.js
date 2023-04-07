@@ -8,9 +8,9 @@ let list = [];
 * returns the "list" array
 */
 
-function pickLearner(inputAr, n){
+function pickLearner(inputAr,n){
     while(n > 0){
-        list.push(learners[Math.floor(Math.random() * learners.length)]);
+        list.push(inputAr[Math.floor(Math.random() * inputAr.length)]);
         n -= 1;
     }
     return list;
